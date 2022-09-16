@@ -6,7 +6,7 @@ const firstYearCompleted = true;
 const yearsCompleted = 1;
 
 /*
-1- does the Implicit type coercion before comparing, since there is the "==" operator which 
+1- Execute the Implicit type coercion before comparing, since there is the "==" operator which 
    triggers the Numeric conversion, so the "firstYearCompleted" variable will be casted to a number type which will be the "1" integer value.
 
 2- The triple equals operator compares the values without doing the Implicit type coercion.
